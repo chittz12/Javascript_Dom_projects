@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: WHITE;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.elem h1{
+    font-size: 5vw;
+}
+.elem img{
+    height: 140px;
+    width: 140px;
+    opacity: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    position: absolute;
+    opacity: 0;
+    mix-blend-mode: difference;
+   transition: all ease 0.1s;
+}

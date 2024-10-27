@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 400px;
+    width: 300px;
+   
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.card h3{
+    font-size: 20px;
+    color: red;
+}
+.addfriend button{
+   background-color: cadetblue;
+   color: #fff;
+   font-weight: 700;
+   padding: 12px 20px;
+   border-radius: 25px;
+   border: none;
+   cursor: pointer;
+}
